@@ -1,0 +1,1244 @@
+/**********************************************
+CSS file for Appointment Booking Pro Front End
+***********************************************/
+
+#sv_apptpro_request {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#FFFFFF;
+	border:dashed;
+	border-width:1px;
+	border-color:#999999;
+        padding:4px;
+	/* un-comment the following line to set booking screen width */
+	/*width:500px;*/
+}
+
+#sv_apptpro_request td, tr{
+    border:0px;
+    padding:4px;
+}
+
+#sv_apptpro_request h3{
+    font-size:24px;
+    margin-top:0px
+}
+
+#sv_apptpro_request_gad {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#FFFFFF;
+	border:dashed;
+	border-width:1px;
+	border-color:#999999;
+        padding:4px;
+	/* un-comment the following line to set booking screen width */
+	/*width:700px;*/
+}
+
+#sv_apptpro_request_gad td, tr{
+    border:0px;
+    padding:4px;
+}
+
+#sv_apptpro_request_gad h3{
+    font-size:24px;
+    margin-top:0px
+}
+
+.sv_apptpro_request_dropdown {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	/* un-comment the following line to override template colors */
+	/*color:#000000;*/ 
+}
+
+.sv_apptpro_request_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	/* un-comment the following line to override template colors */
+	/*color:#000000;*/ 
+}
+
+.sv_apptpro_request_label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+        text-align:left;
+	/* un-comment the following line to override template colors */
+	/*color:#000000;*/ 
+}
+
+.sv_apptpro_request_select_user_label {
+	background-color:#FFFFCC;
+}
+
+#sv_apptpro_print {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:dashed;
+	border-width:1px;
+}
+
+#sv_apptpro_print td{
+	font-size:14px;
+}
+
+.sv_apptpro_request_helptext {
+	font-size:10px;
+	color:#666666;
+	line-height:20px;
+}
+
+.sv_apptpro_request_cancel_row {
+	background-color:#FFFFCC;
+}
+
+#sv_apptpro_front_desk {
+    width:100%;
+	background-color:#FFFFFF;
+	border-width:1px;
+	border-color:silver;
+}
+
+/* Calendar view settings */
+.calendar_text{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+}
+.calendarHeader { 
+    font-weight: bolder; 
+    font-size:16px;
+}
+.calendarHeaderDays { 
+    font-weight: bolder; 
+    background-color:#E7E7E7;
+	border: solid 1px;
+}
+
+.calendarToday { 
+    background-color:#FFFFCC;
+}
+
+.calendar { 
+    background-color: #FFFFFF; 
+    border: solid 1px;
+    font-size:12px;    
+    padding:2px;
+    background-color:#FBFBFB;
+}
+
+
+.calendarCell {
+    height:50px;
+    border: solid 1px;
+}
+
+.calendar_day_number{
+    color:Navy;
+}
+
+.calendar_week_view{
+    background-color: #FFFFFF; 
+    border: solid 1px;
+    font-size:12px;    
+    padding:2px;
+}
+
+.calendar_week_view_header_row{
+    height:30px;
+    margin:10px; 
+}
+
+.week_day_table{
+    border: solid 1px;
+}
+
+.week_row_header{
+    color:Navy;
+    line-height:15px;
+    background-color:#F6F6F6;
+    font-size:11px;
+}
+
+.week_row{
+    font-size:12px;
+    line-height:15px;
+}
+
+.week_row0{
+    font-size:12px;
+    line-height:15px;
+}
+.week_row1{
+    font-size:12px;
+    line-height:15px;
+	background-color:#F6F6F6;
+}
+
+
+.row0{	
+	font-size:11px;
+}	 
+
+.row1{	
+	background-color:#F6F6F6;
+	font-size:11px;
+}	 
+
+.detail_row0{	
+	background-color:#FFFFFF;
+	font-size:12px;
+}	 
+
+.detail_row1{	
+	background-color:#F6F6F6;
+	font-size:12px;
+}	 
+		 
+.admin_detail_row0 {
+	background-color:#FFFFFF;
+	font-size:12px;
+	vertical-align:middle;
+}
+
+.admin_detail_row1 {
+	background-color:#F6F6F6;
+	font-size:12px;
+	vertical-align:middle;
+}
+ 
+.sv_apptpro_errors {
+        color:#FF0000;
+}
+
+.sv_gad_timeslot_available {
+	display: inline;
+	border:solid;
+	border-width:1px; 
+	border-color:#33CC00;
+	background-color:#CCFFCC;
+	height:20px;
+	padding:1px;
+
+}
+		 
+.sv_gad_timeslot_clickable{
+	display: block;
+    height:100%;
+}
+
+.sv_gad_timeslot_booked {
+	display: inline;
+	border:solid;
+	border-width:1px; 
+	border-color:#FF0000;
+	background-color:#FFCECE;
+	height:20px;
+	padding:1px;
+}		 
+
+.sv_gad_timeslot_pending {
+	display: inline;
+	border:dashed;
+	border-width:1px; 
+	border-color:#FF0000;
+	background-color:#FFCECE;
+	height:20px;
+	padding:1px;
+}		
+
+.sv_gad_timeslot_book-off {
+	display: block;
+	border:solid;
+	border-width:1px; 
+	border-color:#FFCC00;
+	background-color:#FFFFCC;
+	height:20px;
+	padding:1px;
+}
+
+.sv_gad_timeslot_selected {
+	display: inline;
+	border:solid;
+	border-width:1px; 
+	border-color:#33CC00;
+	background-color:#FFFFB4;
+	height:20px;
+	padding:1px;
+}		 
+
+.sv_gad_user_selection{
+	background-color:#CCFFCC;
+}
+
+.sv_gad_user_selection_table{
+	border-collapse: collapse;
+	border-style:solid;
+	border-width:1px;
+	border-color:#33CC00;
+}
+
+.sv_gad_user_selection_row{
+}
+.sv_gad_user_selection_row td{
+	padding-left:5px;
+	padding-right:5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#33CC00;
+}
+
+
+
+.sv_gad_timeslot_header {
+	border:solid;
+	border-width:1px; 
+	border-color:#0033CC;
+	/* #border-right:1px; */
+	color:#0033CC;
+	background-color:#FFFFFF;
+	height:18px;
+	padding:0px;
+	margin-top:0px;
+}
+
+.sv_gad_timeslot_yaxis_header {
+	border-bottom:solid;
+	border-bottom-width:1px; 
+	border-bottom-color:#0033CC;
+	border-right:dotted;
+	border-right:1px;
+	border-right-color:#0033CC;
+	color:#0033CC;
+	font-size:10px;
+	height:20px;
+
+}
+
+.sv_gad_row_wrapper {
+
+	color:#0033CC;
+	height:20px;
+}		 
+		 
+.sv_gad_container_table {
+	border:dotted;
+	border-width:1px; 
+	border-color:#CCCCCC;
+}		 
+		 
+.sv_apptpro_selected_resource {
+	font-weight:bold;
+	color:#0000CC;
+}		 
+
+.sv_gad_legend{
+	color:#0033CC;
+	font-size:10px;
+	line-height:25px;
+	/*background-color:#CCFFCC;*/
+
+}
+table#sv_gad_outer_table tr td{
+	height:30px; /* !important */
+	border-top:solid;
+	border-top-width:1px; 
+	border-top-color:#0033CC;
+}		 
+		
+/*.title{
+	border-bottom:1px solid #666666; 
+}*/
+			 
+ 
+/* tabs */
+dl.tabs {
+   float: left;
+   margin: 10px 0 -1px 0;
+   z-index: 50;
+}
+dl.tabs dt {
+   float: left;
+   padding: 4px 10px;
+   border-left: 1px solid #ccc;
+   border-right: 1px solid #ccc;
+   border-top: 1px solid #ccc;
+   margin-left: 3px;
+   background: #f0f0f0;
+   color: #666;
+}
+dl.tabs dt.open {
+   background: #F9F9F9;
+   border-bottom: 1px solid #F9F9F9;
+   z-index: 100;
+   color: #000;
+}
+div.current {
+   clear: both;
+   border: 1px solid #ccc;
+   padding: 10px 10px;
+}
+div.current dd {
+   padding: 0;
+   margin: 0;
+}
+ 
+#resource_udfs_div {
+   background: #F9F9F9;
+   width:80%;
+}		 
+		 
+/* Mobile settings */
+.mobile_title{
+	border-bottom:1px solid #666666; 
+}
+
+#sv_apptpro_request_gad_mobile {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#FFFFFF;
+	border-width:1px;
+	border-color:#999999;
+	/* un-comment the following line to set booking screen width */
+}
+
+.sv_grid_button_mobile{
+	font-size:18px;
+	height:20px;
+}
+	
+.button_mobile{
+	height:30px; 
+	font-size:18px;
+}
+	 
+.sv_apptpro_request_dropdown_mobile {
+	font-family: Arial, Helvetica, sans-serif;
+	height:30px; 
+	font-size:20px;
+	/* un-comment the following line to override template colors */
+	/*color:#000000;*/ 
+}
+		 
+.sv_apptpro_selected_resource_mobile {
+	font-size:12px;
+        font-weight:bold;
+	color:#0000CC;
+}		 
+
+.sv_apptpro_request_text_mobile {
+	font-family: Arial, Helvetica, sans-serif;
+	height:25px; 
+	font-size:16px;
+	/* un-comment the following line to override template colors */
+	/*color:#000000;*/ 
+}
+
+.links_mobile {
+	font-size:18px;
+}
+
+.checkbox_mobile {
+	height:20px; 
+	width:20px; 
+	font-size:20px;
+}
+
+.calendar_list_row_mobile {
+	height: 30px; 
+	font-size: 18px;
+}
+		 
+.calendarHeader_mobile { 
+    font-weight: bolder; 
+    font-size:18px;
+}
+ 
+/* color codes for front desk month view */
+.pfd_nouser_cal_txt_accepted {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#009900;
+}		 
+.calendar_text_new {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#CC66FF;
+}		 
+.color_new{
+	color:#CC66FF;
+}
+.calendar_text_new a:link, calendar_text_new a:visited, calendar_text_new a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#CC66FF;
+}		 
+.calendar_text_accepted {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#009900;
+}	
+
+.color_accepted{
+	color:#009900;
+}
+.calendar_text_accepted a:link, calendar_text_accepted a:visited, calendar_text_accepted a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#009900;
+}		 
+.calendar_text_pending {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF9900;
+}		 
+.color_pending{
+	color:#FF9900;
+}
+.calendar_text_pending a:link, calendar_text_pending a:visited, calendar_text_pending a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF9900;
+}		 
+.calendar_text_declined {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.color_declined{
+	/*color:#FF9900;*/
+}
+.calendar_text_declined a:link, calendar_text_declined a:visited, calendar_text_declined a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.calendar_text_canceled {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF0000;
+}		 
+.color_canceled{
+	color:#FF0000;
+}
+.calendar_text_canceled a:link, calendar_text_canceled a:visited, calendar_text_canceled a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF0000;
+}		 
+.calendar_text_no_show {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.color_no_show{
+	/*color:#FF9900;*/
+}
+.calendar_text_no_show a:link, calendar_text_no_show a:visited, calendar_text_no_show a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.calendar_text_attended {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.color_attended{
+	/*color:#FF9900;*/
+}
+.calendar_text_attended a:link, calendar_text_attended a:visited, calendar_text_attended a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.calendar_text_completed {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.color_completed{
+	/*color:#FF9900;*/
+}
+.calendar_text_completed a:link, calendar_text_completed a:visited, calendar_text_completed a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.calendar_text_deleted {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.color_deleted{
+	/*color:#FF9900;*/
+}
+.calendar_text_deleted a:link, calendar_text_deleted a:visited, calendar_text_deleted a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+		
+.calendar_text_timeout {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#F69;
+}		 
+.color_timeout{
+	color:#F69;
+}
+
+		
+.sv_gad_legend_mobile{
+	color:#0033CC;
+	font-size:8px;
+	line-height:18px;
+	/*background-color:#CCFFCC;*/
+}
+
+
+/* new in 1.4.4 */
+
+.sv_gad_non_work_day {
+	display: block;
+	border:solid;
+	border-width:1px; 
+	border-color:#FFCC00;
+	background-color:#FFFFCC;
+	height:20px;
+	padding:1px;
+}	
+
+		 
+#resource_extras_div{
+    background-color:#F4FBEA;
+    /*width:500px;*/
+} 		 
+		 
+#resource_seat_types_div{
+    background-color:#FAFAF1;
+    /*width:500px;*/
+} 
+		 
+/* new in 1.4.6 */
+.gad2_grid{
+
+}
+.gad2_row{
+	border-top:solid 1px #666;
+}
+
+.gad2_legend{
+    border-top:solid 1px #666;
+    padding-top:5px;
+}
+
+		
+#cell_container{
+     background-color:#FAFAF1;
+} 
+		 
+#svlabel{
+	float:left; 
+	width:auto; 
+	margin-left:0.5em; 
+	margin-right:0.5em; 
+	padding-top:4px;
+} 
+		
+
+#sv_apptpro_mybookings{ 
+     /*background-color:#FAFAF1;*/
+}
+
+#sv_apptpro_mybookings td, tr{
+    border:0px;
+    padding:4px;
+}
+
+#sv_apptpro_mybookings h3{
+    font-size:24px;
+    margin-top:0px
+}
+ 
+#sv_apptpro_fe_admin {
+
+}
+
+#sv_apptpro_fe_admin td, tr{
+    border:0px;
+    padding:4px;
+    font-size:12px;
+}
+
+#sv_apptpro_fe_admin h3{
+    font-size:24px;
+    margin-top:0px
+}
+ 
+#sv_apptpro_fe_adv_admin{
+
+}
+
+
+#sv_apptpro_fe_adv_admin td, tr{
+    border:0px;
+    padding:4px;
+    font-size:12px;
+}
+
+#sv_apptpro_fe_adv_admin h3{
+    font-size:24px;
+    margin-top:0px
+}
+		 
+/* override of Joomla 1.6 default template setting max div width to 500 */
+div.current {
+    max-width:2000px!important;
+}
+		 
+#sv_apptpro_fe_detail {
+
+}
+
+#sv_apptpro_fe_detail td, tr{
+    border:0px;
+    padding:4px;
+    font-size:12px;
+}
+
+#sv_apptpro_fe_detail h3{
+    font-size:24px;
+    margin-top:0px
+}
+
+#sv_apptpro_fe_resource_detail {
+
+}
+		
+#sv_apptpro_fe_resource_detail td, tr{
+    border:0px;
+    padding:4px;
+    font-size:12px;
+}
+
+#sv_apptpro_fe_resource_detail h3{
+    font-size:24px;
+    margin-top:0px
+}
+
+#sv_apptpro_fe_service_detail {
+
+}
+		
+#sv_apptpro_fe_service_detail td, tr{
+    border:0px;
+    padding:4px;
+    font-size:12px;
+}
+
+#sv_apptpro_fe_service_detail h3{
+    font-size:24px;
+    margin-top:0px
+}
+ 
+#sv_apptpro_fe_timeslot_detail {
+
+}
+		
+#sv_apptpro_fe_timeslot_detail td, tr{
+    border:0px;
+    padding:4px;
+    font-size:12px;
+}
+
+#sv_apptpro_fe_timeslot_detail h3{
+    font-size:24px;
+    margin-top:0px
+}
+		 
+#sv_apptpro_fe_bookoff_detail {
+
+}
+		
+#sv_apptpro_fe_bookoff_detail td, tr{
+    border:0px;
+    padding:4px;
+    font-size:12px;
+}
+
+#sv_apptpro_fe_bookoff_detail h3{
+    font-size:24px;
+    margin-top:0px
+}
+		 
+#sv_apptpro_fe_coupon_detail {
+
+}
+		
+#sv_apptpro_fe_coupon_detail td, tr{
+    border:0px;
+    padding:4px;
+    font-size:12px;
+}
+
+#sv_apptpro_fe_coupon_detail h3{
+    font-size:24px;
+    margin-top:0px
+}
+		 
+#sv_apptpro_fe_extras_detail {
+
+}
+		
+#sv_apptpro_fe_extras_detail td, tr{
+    border:0px;
+    padding:4px;
+    font-size:12px;
+}
+
+#sv_apptpro_fe_extras_detail h3{
+    font-size:24px;
+    margin-top:0px
+}
+		 
+#sv_apptpro_front_desk {
+
+}
+		
+#sv_apptpro_front_desk td, tr{
+/*    border:0px;*/
+    padding:4px;
+    font-size:12px;
+}
+
+#sv_apptpro_front_desk h3{
+    font-size:24px;
+    margin-top:0px
+} 
+
+#sv_apptpro_front_desk_top td, tr{
+    border:0px;
+    padding:4px;
+    font-size:12px;
+}
+
+#calview_here {
+    padding-left:2px;
+}  
+
+.calcResults_outside {
+	border:solid 1px #000;
+}
+
+.calcResults_header{
+	background-color:#ededed;
+	border-top:solid 1px #000;
+}
+
+.sv_readonly_background{
+     background-color:#F0F0F0;
+	 color:#666;
+}      
+
+#sv_apptpro_fe_detail_read_only{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+} 
+
+.fe_header_bar{
+     background-color:#FFFF00;
+     border-top:solid 1px !important;
+     border-bottom:solid 3px !important;
+}  
+
+.wiz_header_bar{
+     background-color:#e3fce3;
+     border-top:solid #CCC 1px; 
+     border-bottom:solid #CCC 1px;
+} 
+ 
+.booking_header{
+     border-top:solid #CCC 1px !important; 
+     border-bottom:solid #CCC 1px !important;
+} 
+
+.booking_footer{
+     border-top:solid #CCC 1px !important;
+     border-bottom:solid #CCC 1px !important;
+} 
+ 
+.resource_selector{
+     background-color:#F0F0F0;
+}
+
+.booking_title{
+	padding-top:10px;
+}
+
+.fe_admin_header{
+     background-color:#F4F4F4;
+	 /*color:#000;*/
+} 
+ 
+.sv_apptpro_user_search tr, td{
+	border:0pt;
+}
+/* New Styles */
+.pfd_nouser_calendar_text_new {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#CC66FF;
+}		 
+.pfd_nouser_color_new{
+	color:#CC66FF;
+}
+.pfd_nouser_calendar_text_new a:link, pfd_nouser_calendar_text_new a:visited, pfd_nouser_calendar_text_new a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#CC66FF;
+}		 
+
+.pfd_nouser_calendar_text_accepted {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#009900;
+}		 
+.pfd_nouser_color_accepted{
+	color:#009900;
+}
+.pfd_nouser_calendar_text_accepted a:link, pfd_nouser_calendar_text_accepted a:visited, pfd_nouser_calendar_text_accepted a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#009900;
+}		 
+.pfd_nouser_calendar_text_pending {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF9900;
+}		 
+.pfd_nouser_color_pending{
+	color:#FF9900;
+}
+.pfd_nouser_calendar_text_pending a:link, pfd_nouser_calendar_text_pending a:visited, pfd_nouser_calendar_text_pending a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF9900;
+}		 
+.pfd_nouser_calendar_text_declined {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_nouser_color_declined{
+	/*color:#FF9900;*/
+}
+.pfd_nouser_calendar_text_declined a:link, pfd_nouser_calendar_text_declined a:visited, pfd_nouser_calendar_text_declined a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_nouser_calendar_text_canceled {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF0000;
+}		 
+.pfd_nouser_color_canceled{
+	color:#FF0000;
+}
+.pfd_nouser_calendar_text_canceled a:link, pfd_nouser_calendar_text_canceled a:visited, pfd_nouser_calendar_text_canceled a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF0000;
+}		 
+.pfd_nouser_calendar_text_no_show {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_nouser_color_no_show{
+	/*color:#FF9900;*/
+}
+.pfd_nouser_calendar_text_no_show a:link, pfd_nouser_calendar_text_no_show a:visited, pfd_nouser_calendar_text_no_show a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_nouser_calendar_text_attended {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_nouser_color_attended{
+	/*color:#FF9900;*/
+}
+.pfd_nouser_calendar_text_attended a:link, pfd_nouser_calendar_text_attended a:visited, pfd_nouser_calendar_text_attended a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_nouser_calendar_text_completed {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_nouser_color_completed{
+	/*color:#FF9900;*/
+}
+.pfd_nouser_calendar_text_completed a:link, pfd_nouser_calendar_text_completed a:visited, pfd_nouser_calendar_text_completed a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_nouser_calendar_text_deleted {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_nouser_color_deleted{
+	/*color:#FF9900;*/
+}
+.pfd_nouser_calendar_text_deleted a:link, pfd_nouser_calendar_text_deleted a:visited, pfd_nouser_calendar_text_deleted a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+/*
+** Public Front Desk Styles for Bookings That Match Registered User
+*/
+.pfd_user_calendar_text_new {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#CC66FF;
+}		 
+.pfd_user_color_new{
+	color:#CC66FF;
+}
+.pfd_user_calendar_text_new a:link, pfd_user_calendar_text_new a:visited, pfd_user_calendar_text_new a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#CC66FF;
+}		 
+.pfd_user_calendar_text_accepted {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#009900;
+}		 
+.pfd_user_color_accepted{
+	color:#009900;
+}
+.pfd_user_calendar_text_accepted a:link, pfd_user_calendar_text_accepted a:visited, pfd_user_calendar_text_accepted a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#009900;
+}		 
+.pfd_user_calendar_text_pending {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF9900;
+}		 
+.pfd_user_color_pending{
+	color:#FF9900;
+}
+.pfd_user_calendar_text_pending a:link, pfd_user_calendar_text_pending a:visited, pfd_user_calendar_text_pending a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF9900;
+}		 
+.pfd_user_calendar_text_declined {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_user_color_declined{
+	/*color:#FF9900;*/
+}
+.pfd_user_calendar_text_declined a:link, pfd_user_calendar_text_declined a:visited, pfd_user_calendar_text_declined a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_user_calendar_text_canceled {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF0000;
+}		 
+.pfd_user_color_canceled{
+	color:#FF0000;
+}
+.pfd_user_calendar_text_canceled a:link, pfd_user_calendar_text_canceled a:visited, pfd_user_calendar_text_canceled a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF0000;
+}		 
+.pfd_user_calendar_text_no_show {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_user_color_no_show{
+	/*color:#FF9900;*/
+}
+.pfd_user_calendar_text_no_show a:link, pfd_user_calendar_text_no_show a:visited, pfd_user_calendar_text_no_show a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_user_calendar_text_attended {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_user_color_attended{
+	/*color:#FF9900;*/
+}
+.pfd_user_calendar_text_attended a:link, pfd_user_calendar_text_attended a:visited, pfd_user_calendar_text_attended a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_user_calendar_text_completed {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_user_color_completed{
+	/*color:#FF9900;*/
+}
+.pfd_user_calendar_text_completed a:link, pfd_user_calendar_text_completed a:visited, pfd_user_calendar_text_completed a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_user_calendar_text_deleted {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_user_color_deleted{
+	/*color:#FF9900;*/
+}
+.pfd_user_calendar_text_deleted a:link, pfd_user_calendar_text_deleted a:visited, pfd_user_calendar_text_deleted a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}
+/*
+** Public Front Desk Styles For Global (Public Events) Bookings
+*/
+.pfd_public_calendar_text_new {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#CC66FF;
+}		 
+.pfd_public_color_new{
+	color:#CC66FF;
+}
+.pfd_public_calendar_text_new a:link, pfd_public_calendar_text_new a:visited, pfd_public_calendar_text_new a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#CC66FF;
+}		 
+.pfd_public_calendar_text_accepted {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#009900;
+}		 
+.pfd_public_color_accepted{
+	color:#009900;
+}
+.pfd_public_calendar_text_accepted a:link, pfd_public_calendar_text_accepted a:visited, pfd_public_calendar_text_accepted a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#009900;
+}		 
+.pfd_public_calendar_text_pending {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF9900;
+}		 
+.pfd_public_color_pending{
+	color:#FF9900;
+}
+.pfd_public_calendar_text_pending a:link, pfd_public_calendar_text_pending a:visited, pfd_public_calendar_text_pending a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF9900;
+}		 
+.pfd_public_calendar_text_declined {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_public_color_declined{
+	/*color:#FF9900;*/
+}
+.pfd_public_calendar_text_declined a:link, pfd_public_calendar_text_declined a:visited, pfd_public_calendar_text_declined a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_public_calendar_text_canceled {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF0000;
+}		 
+.pfd_public_color_canceled{
+	color:#FF0000;
+}
+.pfd_public_calendar_text_canceled a:link, pfd_public_calendar_text_canceled a:visited, pfd_public_calendar_text_canceled a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	color:#FF0000;
+}		 
+.pfd_public_calendar_text_no_show {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_public_color_no_show{
+	/*color:#FF9900;*/
+}
+.pfd_public_calendar_text_no_show a:link, pfd_public_calendar_text_no_show a:visited, pfd_public_calendar_text_no_show a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_public_calendar_text_attended {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_public_color_attended{
+	/*color:#FF9900;*/
+}
+.pfd_public_calendar_text_attended a:link, pfd_public_calendar_text_attended a:visited, pfd_public_calendar_text_attended a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_public_calendar_text_completed {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_public_color_completed{
+	/*color:#FF9900;*/
+}
+.pfd_public_calendar_text_completed a:link, pfd_public_calendar_text_completed a:visited, pfd_public_calendar_text_completed a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_public_calendar_text_deleted {
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}		 
+.pfd_public_color_deleted{
+	/*color:#FF9900;*/
+}
+.pfd_public_calendar_text_deleted a:link, pfd_public_calendar_text_deleted a:visited, pfd_public_calendar_text_deleted a:hover{
+	font-family: Arial, Helvetica, sans-serif;    
+    font-size:10px;
+	/*color:#FF9900;*/
+}

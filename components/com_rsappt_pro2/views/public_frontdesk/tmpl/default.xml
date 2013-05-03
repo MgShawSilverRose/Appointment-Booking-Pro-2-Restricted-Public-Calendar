@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<metadata>
+    <layout title="ABPro Public Front Desk">
+        <message>
+			<![CDATA[RS1_PFD_MENU_TITLE_DESC]]>
+        </message>
+    </layout>
+
+    <fields name="params">
+        <fieldset name="params"	label="RS1_PFD_BASIC_OPTIONS_FIELDSET_LABEL">
+<!--
+            <field name="fd_public_view" type="radio" default="No" 
+                       label="RS1_PFD_PUBLIC_BOOKING_VIEW_LABEL" 
+                       description="RS1_PFD_PUBLIC_BOOKINGS_VIEW_HELP">
+                <option value="Yes">RS1_PFD_MENU_YES</option>
+                <option value="No">RS1_PFD_MENU_NO</option>
+            </field>
+
+            <field name="fd_public_show_all_bookings" type="radio" default="No" 
+                    label = "RS1_PFD_PUBLIC_SHOW_ALL_BOOKINGS_LABEL" 
+                    description="RS1_PFD_PUBLIC_SHOW_ALL_BOOKINGS_HELP">
+                <option value="Yes">RS1_PFD_MENU_YES</option>
+                <option value="No">RS1_PFD_MENU_NO</option>
+            </field>
+-->
+            <field name="fd_public_show_global" type="radio" default="Yes" 
+                    label = "RS1_PFD_PUBLIC_SHOW_GLOBAL_LABEL" 
+                    description="RS1_PFD_PUBLIC_SHOW_GLOBAL_HELP">
+                <option value="Yes">RS1_PFD_MENU_YES</option>
+                <option value="No">RS1_PFD_MENU_NO</option>
+            </field>
+            <field name="fd_public_global_category" type="sql" default="0"
+                    label="RS1_PFD_PUBLIC_GLOBAL_CATEGORY_LABEL"
+                    description = "RS1_PFD_PUBLIC_GLOBAL_CATEGORY_HELP"
+                    query = "select id_categories, name from #__sv_apptpro2_categories"
+                    value_field="name"
+                    key_field="id_categories"
+            />
+		
+        </fieldset>
+    </fields>
+</metadata>
